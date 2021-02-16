@@ -40,6 +40,7 @@ print ("--------------------------------------------------------")
 print ("--------------------------------------------------------")
 
 
+
 #Potenciación ----
 
 valor7 = int (input(" Ingresa el número que será la base "))
@@ -48,6 +49,19 @@ valor8 = int(input(" Ingresa el número que será el exponente "))
 resultado_Pote = valor7**valor8
 resultado_Pote = str(resultado_Pote)
 print("El resultado de la Potencia es :"+resultado_Pote)
+
+print ("--------------------------------------------------------")
+print ("--------------------------------------------------------")
+
+
+#Módulo o Resto ----
+
+valor9 = int (input(" Ingresa el número a dividir "))
+valor10 = int(input(" Ingresa el divisor  "))
+
+resultado_Mod = valor9%valor10
+resultado_Mod = str(resultado_Mod)
+print("El resto de la división es :"+resultado_Mod)
 
 print ("--------------------------------------------------------")
 print ("--------------------------------------------------------")
