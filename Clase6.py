@@ -38,3 +38,16 @@ print("El producto es :"+resultado_multi)
 
 print ("--------------------------------------------------------")
 print ("--------------------------------------------------------")
+
+
+#Potenciación ----
+
+valor7 = int (input(" Ingresa el número que será la base "))
+valor8 = int(input(" Ingresa el número que será el exponente "))
+
+resultado_Pote = valor7**valor8
+resultado_Pote = str(resultado_Pote)
+print("El resultado de la Potencia es :"+resultado_Pote)
+
+print ("--------------------------------------------------------")
+print ("--------------------------------------------------------")
