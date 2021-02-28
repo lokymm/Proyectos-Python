@@ -1,4 +1,5 @@
 print("Sistema para calcular el Promedio Académico")
+#En esta clase vemos sentencias condicionales simples
 
 print("BIENVENIDO")
 print("----------------------------------------------------------------------")

@@ -2,7 +2,7 @@
 print("###################################################")
 print("Convertidor de Números a Letras")
 print("###################################################")
-
+#Sentencias condicionales compuestas
 print("BIENVENIDO !!!!")
 
 numero = int(input("Que número deseas convertir: ?  "))
