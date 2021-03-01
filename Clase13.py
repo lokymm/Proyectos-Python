@@ -1,58 +1,60 @@
 
 print("###################################################")
 print("Convertidor")
-print("###################################################")
-#Sentencias condicionales compuestas
-print ("                                     ")
-print("Menu de opciones")
-print ("                                     ")
+print("################################################### \n")
+#Sentencias condicionales anidadas
 
-print("Presiona 1 para convertir de NUMERO a PALABRA")
-print("Presiona 2 para convertir de PALABRA a NUMERO")
+print("Menu de opciones \n")
 
-opcion = int(input("¿cuál es la opción deseada?  "))
-print ("                                     ")
+
+print("Presiona 1 para convertir de NUMERO a PALABRA \n")
+print("Presiona 2 para convertir de PALABRA a NUMERO \n")
+
+opcion = int(input("¿cuál es la opción deseada? "))
+
 
 if opcion ==1:
-    print("Convertir de NUMERO a PALABRA")
-    print ("                                     ")
+    print("\n Convertir de NUMERO a PALABRA \n")
+
     numero = int(input("Que número deseas convertir: ?  "))
-    print ("                                     ")
+
     if numero==1:
-            print("El número es UNO ")
+            print("\n El número es UNO ")
     elif numero==2:
-            print("El número es DOS ")
+            print("\n El número es DOS ")
     elif numero==3:
-            print("El número es TRES ")
+            print("\n El número es TRES ")
     elif numero==4:
-            print("El número es CUATRO ")
+            print("\n El número es CUATRO ")
     elif numero==5:
-            print("El número es CINCO ")
+            print("\n El número es CINCO ")
 
     else:
 
-            print ("Solo se puede convertir hasta el número CINCO")
-            print ("                                     ")
+            print ("Solo se puede convertir hasta el número CINCO \n")
 
-if opcion ==2:
-    print("Convertir de PALABRA a NUMERO")
-    print ("                                     ")
-    numero_nom = str(input("Que número deseas convertir: ? Escribe el nombre  "))
-    print ("                                     ")
+
+elif opcion ==2:
+    print("\n Convertir de PALABRA a NUMERO \n")
+
+    numero_nom = str(input("Que número deseas convertir: ? Escribe el nombre "))
+
     if numero_nom=="uno":
-            print("El número es 1 ")
+            print("\n El número es 1 ")
     elif numero_nom=="dos":
-            print("El número es 2 ")
+            print("\n El número es 2 ")
     elif numero_nom=="tres":
-            print("El número es 3 ")
+            print("\n El número es 3 ")
     elif numero_nom=="cuatro":
-            print("El número es 4 ")
+            print("\n El número es 4 ")
     elif numero_nom=="cinco":
-            print("El número es 5 ")
+            print("\n El número es 5 ")
 
     else:
 
-            print ("Solo se puede convertir hasta el número CINCO")
-            print ("                                     ")
-print ("                                     ")
-print("Fin")
+            print ("Solo se puede convertir hasta el número CINCO \n")
+
+else:
+     print ("\n La opción no está disponible \n ")
+
+print("\n Fin")
