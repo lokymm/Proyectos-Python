@@ -38,7 +38,7 @@ elif opcion ==2:
     print("\n Convertir de PALABRA a NUMERO \n")
 
     numero_nom = str(input("Que número deseas convertir: ? Escribe el nombre "))
-
+    numero_nom=numero_nom.lower()
     if numero_nom=="uno":
             print("\n El número es 1 ")
     elif numero_nom=="dos":
