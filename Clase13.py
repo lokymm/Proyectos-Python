@@ -14,7 +14,7 @@ opcion = int(input("¿cuál es la opción deseada? "))
 
 
 if opcion ==1:
-    print("\n Convertir de NUMERO a PALABRA \n")
+    print("\nConvertir de NUMERO a PALABRA \n")
 
     numero = int(input("Que número deseas convertir: ?  "))
 
@@ -37,7 +37,7 @@ if opcion ==1:
 elif opcion ==2:
     print("\n Convertir de PALABRA a NUMERO \n")
 
-    numero_nom = str(input("Que número deseas convertir: ? Escribe el nombre "))
+    numero_nom = str(input("\n Que número deseas convertir: ? Escribe el nombre: "))
     numero_nom=numero_nom.lower()
     if numero_nom=="uno":
             print("\n El número es 1 ")
