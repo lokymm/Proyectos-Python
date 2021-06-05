@@ -14,30 +14,36 @@ if Area=="Clave1":
 
     if antiguedad ==1:
             print("al Sr:", nombre ,"Corresponden 6 dias de Vacaciones. \n")
-    if antiguedad < 1 and antiguedad > 6:
+    if antiguedad >1 and antiguedad <= 6:
             print("al Sr:", nombre ,"Corresponden 14 dias de Vacaciones. \n")
-    if antiguedad < 6:
+    if antiguedad > 6:
             print("al Sr:", nombre ,"Corresponden 20 dias de Vacaciones. \n")
+    if antiguedad < 1:
+            print("al Sr:", nombre ,"NO Corresponden Vacaciones. \n")
 
 elif Area=="Clave2":
     print("Area Logística. \n")
 
     if antiguedad ==1:
             print("Corresponden 7 dias de Vacaciones. \n")
-    if antiguedad > 1 and antiguedad < 6:
+    if antiguedad > 1 and antiguedad <= 6:
             print("Corresponden 15 dias de Vacaciones. \n")
     if antiguedad > 6:
             print("Corresponden 22 dias de Vacaiones. \n")
+    if antiguedad < 1:
+            print("al Sr:", nombre ,"NO Corresponden Vacaciones. \n")
 
 elif Area=="Clave3":
     print("Area Gerencia.\n")
 
     if antiguedad ==1:
             print("Corresponden 10 dias de Vacaciones. \n")
-    if antiguedad > 1 and antiguedad < 6:
+    if antiguedad > 1 and antiguedad <= 6:
             print("Corresponden 20 dias de Vacaciones. \n")
     if antiguedad > 6:
             print("Corresponden 30 dias de Vacaciones. \n")
+    if antiguedad < 1:
+            print("al Sr:", nombre ,"NO Corresponden Vacaciones. \n")
 
 else:
     print("La Clave ingresada " ,Area, "es Incorrecta. Por favor Ingrese nuevamente")
