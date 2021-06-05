@@ -6,7 +6,7 @@ nombre= input("¿Ingrese su nombre y Apellido?: ")
 
 Area= input("¿Ingrese Clave de area a la que pertenece?: \n Clave1 = Atención al Cliente\n Clave2 = Logística \n Clave3 = Gerencia \n")
 print("---------------------------------- \n")
-antiguedad = int(input("¿Ingrese su antiguedad en Años?:" ))
+antiguedad = float(input("¿Ingrese su antiguedad en Años?:" ))
 print("---------------------------------- \n")
 
 if Area=="Clave1":
