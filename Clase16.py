@@ -4,12 +4,12 @@ print("################################################### \n")
 
 nombre= input("¿Ingrese su nombre y Apellido?: ")
 
-Area= input("¿Ingrese Clave de area a la que pertenece?: \n Clave1 = Atención al Cliente\n Clave2 = Logística \n Clave3 = Gerencia \n")
+Area= int(input("¿Ingrese Clave de area a la que pertenece?: \n Clave 1 = Atención al Cliente\n Clave 2 = Logística \n Clave 3 = Gerencia \n"))
 print("---------------------------------- \n")
 antiguedad = float(input("¿Ingrese su antiguedad en Años?:" ))
 print("---------------------------------- \n")
 
-if Area=="Clave1":
+if Area==1:
     print("Area Atención al Cliente. \n")
 
     if antiguedad ==1:
@@ -21,7 +21,7 @@ if Area=="Clave1":
     if antiguedad < 1:
             print("al Sr:", nombre ,"NO Corresponden Vacaciones. \n")
 
-elif Area=="Clave2":
+elif Area==2:
     print("Area Logística. \n")
 
     if antiguedad ==1:
@@ -33,7 +33,7 @@ elif Area=="Clave2":
     if antiguedad < 1:
             print("al Sr:", nombre ,"NO Corresponden Vacaciones. \n")
 
-elif Area=="Clave3":
+elif Area==3:
     print("Area Gerencia.\n")
 
     if antiguedad ==1:
