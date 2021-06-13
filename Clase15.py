@@ -1,7 +1,7 @@
 print("###################################################")
 print("Uso de operadores Lógicos")
 print("################################################### \n")
-#Operadores Lógicos
+#Operadores Lógicos-
 
 #Conjunción
 print("Conjunción AND \n")
