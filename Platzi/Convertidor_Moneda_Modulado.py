@@ -1,3 +1,14 @@
+def conversion(moneda):
+    pesos = float(input(moneda))
+    cotiz_dolar = float(input("ingrese la cotización del DOLAR :"))
+
+    conversion=pesos/cotiz_dolar
+
+    print("La cantidad de dólares equivalente es: U$S", conversion,"\n")
+
+
+
+
 print("*" *28) 
 print("*   Conversor de MONEDAS   *")
 print("*" *28)
@@ -15,29 +26,16 @@ print(menu)
 opcion=int(input("Ingrese la opción:"))
 
 if opcion == 1:
-
-    pesos = float(input("Ingrese la cantidad de dinero en PESOS ARGENTINOS: "))
-    cotiz_dolar = float(input("ingrese la cotización del DOLAR :"))
-
-    conversion=pesos/cotiz_dolar
-
-    print("La cantidad de dólares equivalente es: U$S", conversion,"\n")
+    conversion("Ingrese la cantidad de dinero en PESOS ARGENTINOS: ")
+    
     
 elif opcion ==2:
-    pesos = float(input("Ingrese la cantidad de dinero en PESOS MEXICANOS: "))
-    cotiz_dolar = float(input("ingrese la cotización del DOLAR :"))
-
-    conversion=pesos/cotiz_dolar
-
-    print("La cantidad de dólares equivalente es: U$S", conversion,"\n")
+   conversion("Ingrese la cantidad de dinero en PESOS MEXICANOS: ")
+    
 
 elif opcion == 3:
-    pesos = float(input("Ingrese la cantidad de dinero en PESOS COLOMBIANOS: "))
-    cotiz_dolar = float(input("ingrese la cotización del DOLAR :"))
-
-    conversion=pesos/cotiz_dolar
-
-    print("La cantidad de dólares equivalente es: U$S", conversion,"\n")
+    conversion("Ingrese la cantidad de dinero en PESOS COLOMBIANOS: ")
+    
 
 else:
     print("Ha ingresado una opción NO VALIDA.\n")
