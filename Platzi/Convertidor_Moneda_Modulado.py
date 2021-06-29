@@ -1,5 +1,5 @@
 def conversion(moneda):
-    pesos = float(input(moneda))
+    pesos = float(input("Ingrese la cantidad de dinero en "+ (moneda)+":"))
     cotiz_dolar = float(input("ingrese la cotización del DOLAR :"))
 
     conversion=pesos/cotiz_dolar
@@ -26,15 +26,15 @@ print(menu)
 opcion=int(input("Ingrese la opción:"))
 
 if opcion == 1:
-    conversion("Ingrese la cantidad de dinero en PESOS ARGENTINOS: ")
+    conversion("PESOS ARGENTINOS")
     
     
 elif opcion ==2:
-   conversion("Ingrese la cantidad de dinero en PESOS MEXICANOS: ")
+   conversion("PESOS MEXICANOS")
     
 
 elif opcion == 3:
-    conversion("Ingrese la cantidad de dinero en PESOS COLOMBIANOS: ")
+    conversion("PESOS COLOMBIANOS")
     
 
 else:
